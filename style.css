@@ -1,0 +1,187 @@
+*{
+    margin: 5px;
+    padding: 5px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+}
+
+.title{
+    margin-left: 5%;
+    margin-bottom: 10px;
+}
+
+.card{
+    border: 1px solid gray;
+    width: 90%;
+    height: 150px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 20px;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+}
+
+.cardHeader{
+    width: 100%;
+    height: 40%;
+    margin: 0%;
+    padding-left: 23px;
+    padding-top: 10px;
+    font-size: 23px;
+    font-weight: 150;
+    border-bottom: 1px grey solid;
+    background-color: rgb(236, 230, 230);
+    
+}
+
+.cardBody{
+    width: 100%;
+    height: 60%;
+}
+
+.inputGroup{
+    display: flex;
+    justify-content: space-between;
+}
+
+.input{
+    width: 95%;
+    margin-right: 0%;
+}
+
+.addBtn{
+    width: 5%;
+    margin-left: 0%;
+    cursor: pointer;
+    background-color: blue;
+    border: none;
+    border-radius: 3px;
+}
+
+.addBtn:hover{
+    background-color: rgb(7, 7, 134);
+}
+
+.addBtn:active{
+    background-color: rgb(10, 10, 82);
+}
+
+.addBtn i {
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+}
+
+
+.card1{
+    border: 1px solid gray;
+    width: 90%;
+    height: 100vh;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card1Header{
+    width: 100%;
+    height: 65px;
+    margin: 0%;
+    padding-left: 23px;
+    padding-right: 10px;
+    align-items: center;
+    font-size: 23px;
+    font-weight: 150;
+    border-bottom: 1px grey solid;
+    background-color: rgb(236, 230, 230);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card1Header h5{
+    font-size: 23px;
+    font-weight: 100;
+}
+
+.deleteAllBtn{
+    background-color: white;
+    color: red;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 3px;
+    border: red 2px solid;
+    border-radius: 3px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.deleteAllBtn:hover{
+    background-color: red;
+    color: white;
+}
+
+.deleteAllBtn:active{
+    background-color: rgb(158, 7, 7);
+    color: white;
+    border:rgb(158, 7, 7);
+}
+
+.card1body{
+    margin: 0%;
+    padding: 0%;
+}
+
+.taskList{
+    display: flex;
+    flex-direction: column  ;
+    margin: 0%;
+    padding: 0%;
+}
+
+.listItem{
+    width: 100%;
+    height: 50px;
+    list-style:none;
+    border-bottom: 1px grey solid;
+    background-color:rgb(187, 186, 186) ;
+    margin: 0%;
+    padding-left: 33px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.deleteBtn{
+    font-size: 15px;
+    font-weight: 500;
+    padding: 3px;
+    width: 100px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(187, 186, 186);
+}
+
+.deleteBtn i{
+    color: white;
+    font-weight: 700;
+}
+
+.deleteBtn i:hover{
+    color: rgb(66, 66, 247);
+}
+
+.deleteBtn i:active{
+    color: rgb(19, 19, 20);
+}
+
+::placeholder{
+    font-size: 16px;
+}
